@@ -1,23 +1,21 @@
-This is the root directory for the A-VIEW project.
+This is the root directory for the A-VIEW project. The current Git-Version of the Source Code maps to the 4.0 A-VIEW client/server software released in October, 2015.
 
-There are six sub-projects in this root directory.
+The following components can be downloaded and installed from here:
 
-aview-db-mysql: Database for aview software. 
-  Use git clone https://github.com/aview/aview-db-mysql.git to clone it. 
+A-VIEW Client: The A-VIEW client application. Available in the aview-platform repository. Use git clone https://github.com/aview/aview-platform.git to clone it locally.
 
-aview-server-tomcat: Java Web application for aview software to handle communciation
-between aview client and database. 
-  Use git clone https://github.com/aview/aview-server-tomcat.git to clone it
+A-VIEW Server: A-VIEW Server has the following sub-components:
 
-aview-platform: Flex Client application for aview software. 
-  Use git clone https://github.com/aview/aview-platform.git to clone it	
+	Database Server: Available in the aview-db-mysql repository. Contains the database scripts used by A-VIEW. Use git clone https://github.com/aview/aview-db-mysql.git to clone it locally.
 
-aview-content-php: PHP Web application for aview software for storage. 
-  Use git clone https://github.com/aview/aview-content-php.git to clone it
+	Web Server: Available in the aview-server-tomcat repository.Contains the Java Web Application Logic for A-VIEW. Use git clone https://github.com/aview/aview-server-tomcat.git to clone it locally.
 
-aview-video-fms: FMS based Video Server application for aview software. 
-  Use git clone https://github.com/aview/aview-video-fms.git to clone it
+	Content Server: Available in the aview-content-php repository. Contains the Application Logic for A-VIEW Content Server to manage Documents and Storage. Use git clone https://github.com/aview/aview-content-php.git to clone it locally.
 
-aview-video-red5: Red5 based Video Server application for aview software
-  Use git clone https://github.com/aview/aview-video-red5.git to clone it
+	Video Server: A-VIEW supports Video Conferencing using both Adobe Media Server (AMS/FMS) and Red5 Open Source Server.
+	
+	AMS/FMS-Based: Available in the aview-video-fms repository. Contains the FMS-based Video Server application. Use git clone https://github.com/aview/aview-video-fms.git to clone it locally.
 
+	Red5-Based: Available in the aview-video-red5 repository. Contains the Red5-based Video Server application. Use git clone https://github.com/aview/aview-video-red5.git to clone it locally.
+
+Contact aview@amrita.edu for help with setup, configuration, or troubleshooting assistance.
