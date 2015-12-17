@@ -18,4 +18,6 @@ A-VIEW Server: A-VIEW Server has the following sub-components:
 
 	Red5-Based: Available in the aview-video-red5 repository. Contains the Red5-based Video Server application. Use git clone https://github.com/aview/aview-video-red5.git to clone it locally.
 
+Please go through the documents under Setup-Instruction. It gives detailed information about how to set up the development environment and run A-VIEW.
+	
 Contact aview@amrita.edu for help with setup, configuration, or troubleshooting assistance.
